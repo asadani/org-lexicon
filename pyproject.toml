@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "org-lexicon"
+version = "0.1.0"
+description = "Resolve domain terminology with evidence and scope."
+requires-python = ">=3.11"
+authors = [{name = "Anuj Sadani"}]
+readme = "README.md"
+license = {text = "Proprietary"}
+dependencies = []
+
+[project.scripts]
+org-lexicon = "org_lexicon.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["org_lexicon*"]
