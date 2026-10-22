@@ -17,3 +17,6 @@ org-lexicon = "org_lexicon.__main__:main"
 
 [tool.setuptools.packages.find]
 include = ["org_lexicon*"]
+
+[tool.setuptools.package-data]
+"*" = ["web/*.css", "web/*.js", "assets/*.css", "assets/*.js", "*.css", "*.js", "*.json"]
