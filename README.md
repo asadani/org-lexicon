@@ -1,8 +1,10 @@
+<p align="center">
+  <img src="assets/logo.svg" alt="Org Lexicon — One term. The right context." width="400" height="160">
+</p>
+
 # Org Lexicon
 
 Org Lexicon extracts explicit definitions as review candidates, keeps approved terms separate by scope, and locates discouraged names in selected Markdown files. Candidates are never silently promoted.
-
-![Org Lexicon logo](assets/logo.svg)
 
 ## Quickstart
 
