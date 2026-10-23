@@ -53,3 +53,7 @@ python -m unittest discover -s tests -v
 Report/export paths cannot overwrite checked files, glossary inputs, or referenced definition sources. Exact reapproval is a no-op; a candidate with an already approved ID and changed content is rejected. Checks report invalid cited source ranges, and ambiguous effective aliases never select an arbitrary replacement.
 
 See [verification coverage](docs/VERIFICATION.md) and [the design plan](docs/PLAN.md) for tested behavior and remaining limits.
+
+## License
+
+Licensed under the [MIT License](LICENSE). Copyright (c) 2026 Anuj Sadani.
